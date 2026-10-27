@@ -84,7 +84,11 @@ export class Stage {
       for (let i = 0; i < r.count; i++) {
         const x = -20 + step * i + (ri === 1 ? step / 2 : 0) + Phaser.Math.Between(-6, 6);
         const s = r.scale * Phaser.Math.FloatBetween(0.9, 1.1);
-        const img = scene.add.image(x, r.y, 'person').setOrigin(0.5, 1).setScale(s).setDepth(r.depth);
+        const img = scene.add
+          .image(x, r.y, 'person')
+          .setOrigin(0.5, 1)
+          .setScale(s)
+          .setDepth(r.depth);
         let hand: Phaser.GameObjects.Image | null = null;
         if (i % 3 === ri) {
           hand = scene.add
@@ -146,7 +150,7 @@ export class Stage {
     }
     if (index === 2) this.glitter.start();
     else this.glitter.stop();
-    this.handsUp = false;
+    this.setSection(false, false);
   }
 
   setSection(drop: boolean, build: boolean): void {

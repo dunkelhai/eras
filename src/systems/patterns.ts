@@ -21,13 +21,7 @@ function num(p: BeatEvent['params'], key: string, fallback: number): number {
   return typeof v === 'number' ? v : fallback;
 }
 
-function radial(
-  beat: number,
-  x: number,
-  y: number,
-  angleRad: number,
-  speed: number,
-): BulletSpawn {
+function radial(beat: number, x: number, y: number, angleRad: number, speed: number): BulletSpawn {
   return {
     beat,
     x,
@@ -65,7 +59,8 @@ export function expandPattern(e: BeatEvent, px: number, py: number): BulletSpawn
     case 'ring': {
       const n = num(p, 'count', 12);
       const off = num(p, 'offset', 0) * DEG;
-      for (let i = 0; i < n; i++) out.push(radial(e.beat, x, y, off + (Math.PI * 2 * i) / n, speed));
+      for (let i = 0; i < n; i++)
+        out.push(radial(e.beat, x, y, off + (Math.PI * 2 * i) / n, speed));
       break;
     }
     case 'aimed': {

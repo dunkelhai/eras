@@ -30,7 +30,10 @@ export class Player {
     this.scene = scene;
     this.ring = scene.add.image(this.x, this.y, 'playerRing').setDepth(depth);
     this.core = scene.add.image(this.x, this.y, 'playerCore').setDepth(depth + 1);
-    this.hitbox = scene.add.image(this.x, this.y, 'hitbox').setDepth(depth + 2).setVisible(false);
+    this.hitbox = scene.add
+      .image(this.x, this.y, 'hitbox')
+      .setDepth(depth + 2)
+      .setVisible(false);
     const K = Phaser.Input.Keyboard.KeyCodes;
     this.keys = scene.input.keyboard!.addKeys({
       up: K.UP,

@@ -87,7 +87,15 @@ for (let b = 4; b < 16; b += 4) {
 }
 for (let b = 16; b < 40; b += 2) {
   const e = (b / 2) % 2 === 0 ? L : R;
-  bullet(b, 'fan', { x: e.x, y: e.y, count: 7, spread: 80, aim: b % 4 === 0, angle: 90, speed: 165 });
+  bullet(b, 'fan', {
+    x: e.x,
+    y: e.y,
+    count: 7,
+    spread: 80,
+    aim: b % 4 === 0,
+    angle: 90,
+    speed: 165,
+  });
 }
 for (let b = 40; b < 48; b++) {
   const e = pick([L, C, R]);
@@ -135,8 +143,24 @@ for (let b = 96; b < 120; b += 2) {
   }
 }
 for (let b = 120; b < 128; b += 2) {
-  bullet(b, 'wave', { side: 'left', lane: lanes[(b / 2) % 4], count: 8, interval: 0.25, speed: 140, amp: 45, freq: 0.9 });
-  bullet(b + 1, 'wave', { side: 'right', lane: lanes[(b / 2 + 2) % 4], count: 8, interval: 0.25, speed: 140, amp: 45, freq: 0.9 });
+  bullet(b, 'wave', {
+    side: 'left',
+    lane: lanes[(b / 2) % 4],
+    count: 8,
+    interval: 0.25,
+    speed: 140,
+    amp: 45,
+    freq: 0.9,
+  });
+  bullet(b + 1, 'wave', {
+    side: 'right',
+    lane: lanes[(b / 2 + 2) % 4],
+    count: 8,
+    interval: 0.25,
+    speed: 140,
+    amp: 45,
+    freq: 0.9,
+  });
 }
 for (let b = 128; b < 160; b += 2) {
   bullet(b, 'wave', {
@@ -152,15 +176,41 @@ for (let b = 128; b < 160; b += 2) {
     const gap = round(rnd() * 3);
     for (let c = 0; c < 5; c++) {
       if (c === gap || c === gap + 1) continue;
-      bullet(b, 'wave', { side: 'top', lane: 200 + c * 220, count: 5, interval: 0.25, speed: 115, amp: 40, freq: 0.8 });
+      bullet(b, 'wave', {
+        side: 'top',
+        lane: 200 + c * 220,
+        count: 5,
+        interval: 0.25,
+        speed: 115,
+        amp: 40,
+        freq: 0.8,
+      });
     }
   }
 }
 
 // ---------- Era III — espirais e chuva densa ----------
 const SP = { x: 640, y: 250 };
-bullet(164, 'spiral', { x: SP.x, y: SP.y, arms: 2, rate: 2, beats: 8, turn: 40, speed: 120, offset: 0 });
-bullet(172, 'spiral', { x: SP.x, y: SP.y, arms: 2, rate: 2, beats: 4, turn: -40, speed: 120, offset: 90 });
+bullet(164, 'spiral', {
+  x: SP.x,
+  y: SP.y,
+  arms: 2,
+  rate: 2,
+  beats: 8,
+  turn: 40,
+  speed: 120,
+  offset: 0,
+});
+bullet(172, 'spiral', {
+  x: SP.x,
+  y: SP.y,
+  arms: 2,
+  rate: 2,
+  beats: 4,
+  turn: -40,
+  speed: 120,
+  offset: 90,
+});
 for (let b = 176; b < 200; b += 8) {
   bullet(b, 'rain', { count: 16, beats: 4, speedMin: 150, speedMax: 200, seed: b });
   bullet(b + 4, 'spiral', {

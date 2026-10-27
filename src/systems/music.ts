@@ -456,7 +456,8 @@ export class Music {
     time: number,
   ): void {
     const full = sec === 'verse' || sec === 'drop';
-    if (sub === 0 && (full || sec === 'build')) inst.kick.triggerAttackRelease(midiHz(30), '8n', time);
+    if (sub === 0 && (full || sec === 'build'))
+      inst.kick.triggerAttackRelease(midiHz(30), '8n', time);
     if (sec === 'drop') inst.hat.triggerAttackRelease('32n', time, sub % 2 ? 0.45 : 0.8);
     else if (sec === 'verse' && onEighth) inst.hat.triggerAttackRelease('32n', time, 0.6);
     if (sub === 0 && bb === 3 && sec === 'verse') inst.snare.triggerAttackRelease('16n', time);

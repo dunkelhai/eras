@@ -1,22 +1,36 @@
 import Phaser from 'phaser';
+import { BootScene } from './scenes/BootScene';
+import { GameScene } from './scenes/GameScene';
+import { PauseScene } from './scenes/PauseScene';
+import { ResultScene } from './scenes/ResultScene';
+import { TitleScene } from './scenes/TitleScene';
+import { PAL } from './style/palette';
 
-class BootScene extends Phaser.Scene {
-  constructor() {
-    super('Boot');
-  }
-  create(): void {
-    this.add.text(640, 360, 'eras', { fontFamily: 'Bungee', fontSize: '64px' }).setOrigin(0.5);
-  }
+async function waitFonts(): Promise<void> {
+  const loads = Promise.all([
+    document.fonts.load('108px "Bungee"'),
+    document.fonts.load('700 28px "Rajdhani"'),
+    document.fonts.load('600 20px "Rajdhani"'),
+  ]).then(() => document.fonts.ready);
+  const timeout = new Promise<void>((resolve) => setTimeout(resolve, 4000));
+  await Promise.race([loads, timeout]);
 }
 
-const game = new Phaser.Game({
-  type: Phaser.AUTO,
-  parent: 'game',
-  width: 1280,
-  height: 720,
-  backgroundColor: '#0a0614',
-  scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH },
-  scene: [BootScene],
-});
+async function boot(): Promise<void> {
+  await waitFonts();
+  const game = new Phaser.Game({
+    type: Phaser.AUTO,
+    parent: 'game',
+    width: 1280,
+    height: 720,
+    backgroundColor: PAL.str.uiBg,
+    antialias: true,
+    roundPixels: true,
+    fps: { target: 60 },
+    scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH },
+    scene: [BootScene, TitleScene, GameScene, PauseScene, ResultScene],
+  });
+  (window as unknown as { __game: Phaser.Game }).__game = game;
+}
 
-(window as unknown as { __game: Phaser.Game }).__game = game;
+void boot();
