@@ -1,0 +1,2805 @@
+{
+  "bpm": 120,
+  "countInBeats": 4,
+  "lengthBeats": 240,
+  "tailBeats": 3,
+  "eras": [
+    {
+      "startBeat": 0,
+      "buildBeat": 40,
+      "dropBeat": 48
+    },
+    {
+      "startBeat": 80,
+      "buildBeat": 120,
+      "dropBeat": 128
+    },
+    {
+      "startBeat": 160,
+      "buildBeat": 200,
+      "dropBeat": 208
+    }
+  ],
+  "events": [
+    {
+      "beat": 0,
+      "type": "fx",
+      "pattern": "era",
+      "params": {
+        "era": 0
+      }
+    },
+    {
+      "beat": 4,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 5,
+        "spread": 50,
+        "aim": true,
+        "speed": 150
+      }
+    },
+    {
+      "beat": 4,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 389,
+        "y": 524
+      }
+    },
+    {
+      "beat": 6,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 178,
+        "y": 453
+      }
+    },
+    {
+      "beat": 8,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 5,
+        "spread": 50,
+        "aim": true,
+        "speed": 150
+      }
+    },
+    {
+      "beat": 8,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 213,
+        "y": 242
+      }
+    },
+    {
+      "beat": 10,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 382,
+        "y": 173
+      }
+    },
+    {
+      "beat": 12,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 5,
+        "spread": 50,
+        "aim": true,
+        "speed": 150
+      }
+    },
+    {
+      "beat": 12,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 510,
+        "y": 271
+      }
+    },
+    {
+      "beat": 14,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 582,
+        "y": 400
+      }
+    },
+    {
+      "beat": 16,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": true,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 16,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 452,
+        "y": 543
+      }
+    },
+    {
+      "beat": 18,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": false,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 18,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 545,
+        "y": 374
+      }
+    },
+    {
+      "beat": 20,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": true,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 20,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 671,
+        "y": 415
+      }
+    },
+    {
+      "beat": 22,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": false,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 22,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 567,
+        "y": 284
+      }
+    },
+    {
+      "beat": 24,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": true,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 24,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 526,
+        "y": 494
+      }
+    },
+    {
+      "beat": 26,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": false,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 26,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 680,
+        "y": 382
+      }
+    },
+    {
+      "beat": 28,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": true,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 28,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 475,
+        "y": 380
+      }
+    },
+    {
+      "beat": 30,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": false,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 30,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 291,
+        "y": 318
+      }
+    },
+    {
+      "beat": 32,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": true,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 32,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 223,
+        "y": 217
+      }
+    },
+    {
+      "beat": 34,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": false,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 34,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 178,
+        "y": 330
+      }
+    },
+    {
+      "beat": 36,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": true,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 36,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 186,
+        "y": 188
+      }
+    },
+    {
+      "beat": 38,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 7,
+        "spread": 80,
+        "aim": false,
+        "angle": 90,
+        "speed": 165
+      }
+    },
+    {
+      "beat": 38,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 289,
+        "y": 342
+      }
+    },
+    {
+      "beat": 40,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 3,
+        "spacing": 12,
+        "speed": 210
+      }
+    },
+    {
+      "beat": 40,
+      "type": "fx",
+      "pattern": "build",
+      "params": {
+        "era": 0
+      }
+    },
+    {
+      "beat": 40,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 523,
+        "y": 296
+      }
+    },
+    {
+      "beat": 41,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 3,
+        "spacing": 12,
+        "speed": 210
+      }
+    },
+    {
+      "beat": 41,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 498,
+        "y": 380
+      }
+    },
+    {
+      "beat": 42,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 3,
+        "spacing": 12,
+        "speed": 210
+      }
+    },
+    {
+      "beat": 42,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 464,
+        "y": 298
+      }
+    },
+    {
+      "beat": 43,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 640,
+        "y": 112,
+        "count": 3,
+        "spacing": 12,
+        "speed": 210
+      }
+    },
+    {
+      "beat": 43,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 405,
+        "y": 208
+      }
+    },
+    {
+      "beat": 44,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 640,
+        "y": 112,
+        "count": 3,
+        "spacing": 12,
+        "speed": 210
+      }
+    },
+    {
+      "beat": 44,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 515,
+        "y": 219
+      }
+    },
+    {
+      "beat": 45,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 3,
+        "spacing": 12,
+        "speed": 210
+      }
+    },
+    {
+      "beat": 45,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 605,
+        "y": 173
+      }
+    },
+    {
+      "beat": 46,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 640,
+        "y": 112,
+        "count": 3,
+        "spacing": 12,
+        "speed": 210
+      }
+    },
+    {
+      "beat": 46,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 722,
+        "y": 195
+      }
+    },
+    {
+      "beat": 47,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 3,
+        "spacing": 12,
+        "speed": 210
+      }
+    },
+    {
+      "beat": 47,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 643,
+        "y": 206
+      }
+    },
+    {
+      "beat": 48,
+      "type": "bullet",
+      "pattern": "ring",
+      "params": {
+        "x": 640,
+        "y": 200,
+        "count": 16,
+        "speed": 140,
+        "offset": 14
+      }
+    },
+    {
+      "beat": 48,
+      "type": "fx",
+      "pattern": "drop",
+      "params": {
+        "era": 0
+      }
+    },
+    {
+      "beat": 48,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 713,
+        "y": 294
+      }
+    },
+    {
+      "beat": 50,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 7,
+        "spread": 70,
+        "aim": true,
+        "speed": 175
+      }
+    },
+    {
+      "beat": 50,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 775,
+        "y": 420
+      }
+    },
+    {
+      "beat": 52,
+      "type": "bullet",
+      "pattern": "ring",
+      "params": {
+        "x": 640,
+        "y": 200,
+        "count": 16,
+        "speed": 140,
+        "offset": 19
+      }
+    },
+    {
+      "beat": 52,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 999,
+        "y": 425
+      }
+    },
+    {
+      "beat": 54,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 7,
+        "spread": 70,
+        "aim": true,
+        "speed": 175
+      }
+    },
+    {
+      "beat": 54,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 955,
+        "y": 307
+      }
+    },
+    {
+      "beat": 56,
+      "type": "bullet",
+      "pattern": "ring",
+      "params": {
+        "x": 640,
+        "y": 200,
+        "count": 16,
+        "speed": 140,
+        "offset": 1
+      }
+    },
+    {
+      "beat": 56,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 763,
+        "y": 309
+      }
+    },
+    {
+      "beat": 58,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 7,
+        "spread": 70,
+        "aim": true,
+        "speed": 175
+      }
+    },
+    {
+      "beat": 58,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 837,
+        "y": 484
+      }
+    },
+    {
+      "beat": 60,
+      "type": "bullet",
+      "pattern": "ring",
+      "params": {
+        "x": 640,
+        "y": 200,
+        "count": 16,
+        "speed": 140,
+        "offset": 6
+      }
+    },
+    {
+      "beat": 60,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 639,
+        "y": 515
+      }
+    },
+    {
+      "beat": 62,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 7,
+        "spread": 70,
+        "aim": true,
+        "speed": 175
+      }
+    },
+    {
+      "beat": 62,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 424,
+        "y": 444
+      }
+    },
+    {
+      "beat": 64,
+      "type": "bullet",
+      "pattern": "ring",
+      "params": {
+        "x": 640,
+        "y": 200,
+        "count": 16,
+        "speed": 140,
+        "offset": 11
+      }
+    },
+    {
+      "beat": 64,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 554,
+        "y": 381
+      }
+    },
+    {
+      "beat": 66,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 7,
+        "spread": 70,
+        "aim": true,
+        "speed": 175
+      }
+    },
+    {
+      "beat": 66,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 654,
+        "y": 522
+      }
+    },
+    {
+      "beat": 68,
+      "type": "bullet",
+      "pattern": "ring",
+      "params": {
+        "x": 640,
+        "y": 200,
+        "count": 16,
+        "speed": 140,
+        "offset": 16
+      }
+    },
+    {
+      "beat": 68,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 705,
+        "y": 366
+      }
+    },
+    {
+      "beat": 70,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 7,
+        "spread": 70,
+        "aim": true,
+        "speed": 175
+      }
+    },
+    {
+      "beat": 70,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 595,
+        "y": 185
+      }
+    },
+    {
+      "beat": 72,
+      "type": "bullet",
+      "pattern": "ring",
+      "params": {
+        "x": 640,
+        "y": 200,
+        "count": 16,
+        "speed": 140,
+        "offset": 21
+      }
+    },
+    {
+      "beat": 72,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 675,
+        "y": 275
+      }
+    },
+    {
+      "beat": 74,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 7,
+        "spread": 70,
+        "aim": true,
+        "speed": 175
+      }
+    },
+    {
+      "beat": 74,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 611,
+        "y": 173
+      }
+    },
+    {
+      "beat": 76,
+      "type": "bullet",
+      "pattern": "ring",
+      "params": {
+        "x": 640,
+        "y": 200,
+        "count": 16,
+        "speed": 140,
+        "offset": 3
+      }
+    },
+    {
+      "beat": 76,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 622,
+        "y": 340
+      }
+    },
+    {
+      "beat": 78,
+      "type": "bullet",
+      "pattern": "fan",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 7,
+        "spread": 70,
+        "aim": true,
+        "speed": 175
+      }
+    },
+    {
+      "beat": 80,
+      "type": "fx",
+      "pattern": "era",
+      "params": {
+        "era": 1
+      }
+    },
+    {
+      "beat": 84,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 410,
+        "count": 8,
+        "interval": 0.25,
+        "speed": 120,
+        "amp": 50,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 84,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 596,
+        "y": 526
+      }
+    },
+    {
+      "beat": 86,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 626,
+        "y": 392
+      }
+    },
+    {
+      "beat": 88,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 300,
+        "count": 8,
+        "interval": 0.25,
+        "speed": 120,
+        "amp": 50,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 88,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 688,
+        "y": 525
+      }
+    },
+    {
+      "beat": 90,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 766,
+        "y": 432
+      }
+    },
+    {
+      "beat": 92,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 190,
+        "count": 8,
+        "interval": 0.25,
+        "speed": 120,
+        "amp": 50,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 92,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 899,
+        "y": 357
+      }
+    },
+    {
+      "beat": 94,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1056,
+        "y": 470
+      }
+    },
+    {
+      "beat": 96,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 190,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 96,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 348,
+        "count": 7,
+        "interval": 0.25,
+        "speed": 110,
+        "amp": 70,
+        "freq": 0.6
+      }
+    },
+    {
+      "beat": 96,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1029,
+        "y": 323
+      }
+    },
+    {
+      "beat": 98,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 410,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 98,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 941,
+        "y": 420
+      }
+    },
+    {
+      "beat": 100,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 410,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 100,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 845,
+        "y": 509
+      }
+    },
+    {
+      "beat": 102,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 520,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 102,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 661,
+        "y": 394
+      }
+    },
+    {
+      "beat": 104,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 300,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 104,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 321,
+        "count": 7,
+        "interval": 0.25,
+        "speed": 110,
+        "amp": 70,
+        "freq": 0.6
+      }
+    },
+    {
+      "beat": 104,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 815,
+        "y": 520
+      }
+    },
+    {
+      "beat": 106,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 190,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 106,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 956,
+        "y": 526
+      }
+    },
+    {
+      "beat": 108,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 520,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 108,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1002,
+        "y": 375
+      }
+    },
+    {
+      "beat": 110,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 520,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 110,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 836,
+        "y": 289
+      }
+    },
+    {
+      "beat": 112,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 300,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 112,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 328,
+        "count": 7,
+        "interval": 0.25,
+        "speed": 110,
+        "amp": 70,
+        "freq": 0.6
+      }
+    },
+    {
+      "beat": 112,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 769,
+        "y": 432
+      }
+    },
+    {
+      "beat": 114,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 410,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 114,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 887,
+        "y": 358
+      }
+    },
+    {
+      "beat": 116,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 410,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 116,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 722,
+        "y": 461
+      }
+    },
+    {
+      "beat": 118,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 300,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 125,
+        "amp": 60,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 118,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 905,
+        "y": 391
+      }
+    },
+    {
+      "beat": 120,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 190,
+        "count": 8,
+        "interval": 0.25,
+        "speed": 140,
+        "amp": 45,
+        "freq": 0.9
+      }
+    },
+    {
+      "beat": 120,
+      "type": "fx",
+      "pattern": "build",
+      "params": {
+        "era": 1
+      }
+    },
+    {
+      "beat": 120,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1048,
+        "y": 468
+      }
+    },
+    {
+      "beat": 121,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 410,
+        "count": 8,
+        "interval": 0.25,
+        "speed": 140,
+        "amp": 45,
+        "freq": 0.9
+      }
+    },
+    {
+      "beat": 121,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1091,
+        "y": 358
+      }
+    },
+    {
+      "beat": 122,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 300,
+        "count": 8,
+        "interval": 0.25,
+        "speed": 140,
+        "amp": 45,
+        "freq": 0.9
+      }
+    },
+    {
+      "beat": 122,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1024,
+        "y": 414
+      }
+    },
+    {
+      "beat": 123,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 520,
+        "count": 8,
+        "interval": 0.25,
+        "speed": 140,
+        "amp": 45,
+        "freq": 0.9
+      }
+    },
+    {
+      "beat": 123,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1099,
+        "y": 504
+      }
+    },
+    {
+      "beat": 124,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 410,
+        "count": 8,
+        "interval": 0.25,
+        "speed": 140,
+        "amp": 45,
+        "freq": 0.9
+      }
+    },
+    {
+      "beat": 124,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1044,
+        "y": 469
+      }
+    },
+    {
+      "beat": 125,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 190,
+        "count": 8,
+        "interval": 0.25,
+        "speed": 140,
+        "amp": 45,
+        "freq": 0.9
+      }
+    },
+    {
+      "beat": 125,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 948,
+        "y": 473
+      }
+    },
+    {
+      "beat": 126,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 520,
+        "count": 8,
+        "interval": 0.25,
+        "speed": 140,
+        "amp": 45,
+        "freq": 0.9
+      }
+    },
+    {
+      "beat": 126,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 990,
+        "y": 418
+      }
+    },
+    {
+      "beat": 127,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 300,
+        "count": 8,
+        "interval": 0.25,
+        "speed": 140,
+        "amp": 45,
+        "freq": 0.9
+      }
+    },
+    {
+      "beat": 127,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1066,
+        "y": 393
+      }
+    },
+    {
+      "beat": 128,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 520,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 128,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 200,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 128,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 420,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 128,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 1080,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 128,
+      "type": "fx",
+      "pattern": "drop",
+      "params": {
+        "era": 1
+      }
+    },
+    {
+      "beat": 128,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1056,
+        "y": 467
+      }
+    },
+    {
+      "beat": 130,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 410,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 130,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1030,
+        "y": 259
+      }
+    },
+    {
+      "beat": 132,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 190,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 132,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 812,
+        "y": 292
+      }
+    },
+    {
+      "beat": 134,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 300,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 134,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 642,
+        "y": 358
+      }
+    },
+    {
+      "beat": 136,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 190,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 136,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 640,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 136,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 860,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 136,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 1080,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 136,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 600,
+        "y": 208
+      }
+    },
+    {
+      "beat": 138,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 190,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 138,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 396,
+        "y": 170
+      }
+    },
+    {
+      "beat": 140,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 300,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 140,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 589,
+        "y": 297
+      }
+    },
+    {
+      "beat": 142,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 410,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 142,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 694,
+        "y": 395
+      }
+    },
+    {
+      "beat": 144,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 190,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 144,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 200,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 144,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 420,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 144,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 1080,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 144,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 859,
+        "y": 322
+      }
+    },
+    {
+      "beat": 146,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 520,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 146,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 744,
+        "y": 421
+      }
+    },
+    {
+      "beat": 148,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 300,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 148,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 610,
+        "y": 265
+      }
+    },
+    {
+      "beat": 150,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 190,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 150,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 442,
+        "y": 258
+      }
+    },
+    {
+      "beat": 152,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 410,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 152,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 200,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 152,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 420,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 152,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 640,
+        "count": 5,
+        "interval": 0.25,
+        "speed": 115,
+        "amp": 40,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 152,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 279,
+        "y": 239
+      }
+    },
+    {
+      "beat": 154,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 190,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 154,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 457,
+        "y": 198
+      }
+    },
+    {
+      "beat": 156,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "left",
+        "lane": 520,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 156,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 570,
+        "y": 355
+      }
+    },
+    {
+      "beat": 158,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "right",
+        "lane": 190,
+        "count": 10,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 65,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 160,
+      "type": "fx",
+      "pattern": "era",
+      "params": {
+        "era": 2
+      }
+    },
+    {
+      "beat": 164,
+      "type": "bullet",
+      "pattern": "spiral",
+      "params": {
+        "x": 640,
+        "y": 250,
+        "arms": 2,
+        "rate": 2,
+        "beats": 8,
+        "turn": 40,
+        "speed": 120,
+        "offset": 0
+      }
+    },
+    {
+      "beat": 164,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 791,
+        "y": 245
+      }
+    },
+    {
+      "beat": 166,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 775,
+        "y": 407
+      }
+    },
+    {
+      "beat": 168,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 818,
+        "y": 546
+      }
+    },
+    {
+      "beat": 170,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 967,
+        "y": 366
+      }
+    },
+    {
+      "beat": 172,
+      "type": "bullet",
+      "pattern": "spiral",
+      "params": {
+        "x": 640,
+        "y": 250,
+        "arms": 2,
+        "rate": 2,
+        "beats": 4,
+        "turn": -40,
+        "speed": 120,
+        "offset": 90
+      }
+    },
+    {
+      "beat": 172,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1103,
+        "y": 465
+      }
+    },
+    {
+      "beat": 174,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 918,
+        "y": 511
+      }
+    },
+    {
+      "beat": 176,
+      "type": "bullet",
+      "pattern": "rain",
+      "params": {
+        "count": 16,
+        "beats": 4,
+        "speedMin": 150,
+        "speedMax": 200,
+        "seed": 176
+      }
+    },
+    {
+      "beat": 176,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1053,
+        "y": 463
+      }
+    },
+    {
+      "beat": 178,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 908,
+        "y": 515
+      }
+    },
+    {
+      "beat": 180,
+      "type": "bullet",
+      "pattern": "spiral",
+      "params": {
+        "x": 640,
+        "y": 250,
+        "arms": 3,
+        "rate": 2,
+        "beats": 4,
+        "turn": 45,
+        "speed": 125,
+        "offset": 176
+      }
+    },
+    {
+      "beat": 180,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1065,
+        "y": 490
+      }
+    },
+    {
+      "beat": 182,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 938,
+        "y": 506
+      }
+    },
+    {
+      "beat": 184,
+      "type": "bullet",
+      "pattern": "rain",
+      "params": {
+        "count": 16,
+        "beats": 4,
+        "speedMin": 150,
+        "speedMax": 200,
+        "seed": 184
+      }
+    },
+    {
+      "beat": 184,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 936,
+        "y": 299
+      }
+    },
+    {
+      "beat": 186,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 831,
+        "y": 390
+      }
+    },
+    {
+      "beat": 188,
+      "type": "bullet",
+      "pattern": "spiral",
+      "params": {
+        "x": 640,
+        "y": 250,
+        "arms": 3,
+        "rate": 2,
+        "beats": 4,
+        "turn": -45,
+        "speed": 125,
+        "offset": 184
+      }
+    },
+    {
+      "beat": 188,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 985,
+        "y": 336
+      }
+    },
+    {
+      "beat": 190,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 862,
+        "y": 350
+      }
+    },
+    {
+      "beat": 192,
+      "type": "bullet",
+      "pattern": "rain",
+      "params": {
+        "count": 16,
+        "beats": 4,
+        "speedMin": 150,
+        "speedMax": 200,
+        "seed": 192
+      }
+    },
+    {
+      "beat": 192,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 778,
+        "y": 468
+      }
+    },
+    {
+      "beat": 194,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 866,
+        "y": 554
+      }
+    },
+    {
+      "beat": 196,
+      "type": "bullet",
+      "pattern": "spiral",
+      "params": {
+        "x": 640,
+        "y": 250,
+        "arms": 3,
+        "rate": 2,
+        "beats": 4,
+        "turn": 45,
+        "speed": 125,
+        "offset": 192
+      }
+    },
+    {
+      "beat": 196,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 980,
+        "y": 460
+      }
+    },
+    {
+      "beat": 198,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1061,
+        "y": 274
+      }
+    },
+    {
+      "beat": 200,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 640,
+        "y": 112,
+        "count": 3,
+        "spacing": 10,
+        "speed": 220
+      }
+    },
+    {
+      "beat": 200,
+      "type": "fx",
+      "pattern": "build",
+      "params": {
+        "era": 2
+      }
+    },
+    {
+      "beat": 200,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1090,
+        "y": 483
+      }
+    },
+    {
+      "beat": 201,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 3,
+        "spacing": 10,
+        "speed": 220
+      }
+    },
+    {
+      "beat": 201,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1049,
+        "y": 545
+      }
+    },
+    {
+      "beat": 202,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 200,
+        "y": 112,
+        "count": 3,
+        "spacing": 10,
+        "speed": 220
+      }
+    },
+    {
+      "beat": 202,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1019,
+        "y": 469
+      }
+    },
+    {
+      "beat": 203,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 640,
+        "y": 112,
+        "count": 3,
+        "spacing": 10,
+        "speed": 220
+      }
+    },
+    {
+      "beat": 203,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 986,
+        "y": 527
+      }
+    },
+    {
+      "beat": 204,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 3,
+        "spacing": 10,
+        "speed": 220
+      }
+    },
+    {
+      "beat": 204,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1051,
+        "y": 487
+      }
+    },
+    {
+      "beat": 205,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 640,
+        "y": 112,
+        "count": 3,
+        "spacing": 10,
+        "speed": 220
+      }
+    },
+    {
+      "beat": 205,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 966,
+        "y": 485
+      }
+    },
+    {
+      "beat": 206,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 1080,
+        "y": 112,
+        "count": 3,
+        "spacing": 10,
+        "speed": 220
+      }
+    },
+    {
+      "beat": 206,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 906,
+        "y": 515
+      }
+    },
+    {
+      "beat": 207,
+      "type": "bullet",
+      "pattern": "aimed",
+      "params": {
+        "x": 640,
+        "y": 112,
+        "count": 3,
+        "spacing": 10,
+        "speed": 220
+      }
+    },
+    {
+      "beat": 207,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 794,
+        "y": 491
+      }
+    },
+    {
+      "beat": 208,
+      "type": "bullet",
+      "pattern": "spiral",
+      "params": {
+        "x": 640,
+        "y": 250,
+        "arms": 4,
+        "rate": 2,
+        "beats": 8,
+        "turn": 35,
+        "speed": 125,
+        "offset": 624
+      }
+    },
+    {
+      "beat": 208,
+      "type": "bullet",
+      "pattern": "rain",
+      "params": {
+        "count": 22,
+        "beats": 8,
+        "speedMin": 160,
+        "speedMax": 220,
+        "seed": 209
+      }
+    },
+    {
+      "beat": 208,
+      "type": "fx",
+      "pattern": "drop",
+      "params": {
+        "era": 2
+      }
+    },
+    {
+      "beat": 208,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 739,
+        "y": 457
+      }
+    },
+    {
+      "beat": 210,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 606,
+        "y": 389
+      }
+    },
+    {
+      "beat": 212,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 748,
+        "y": 275
+      }
+    },
+    {
+      "beat": 214,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 820,
+        "y": 384
+      }
+    },
+    {
+      "beat": 216,
+      "type": "bullet",
+      "pattern": "spiral",
+      "params": {
+        "x": 640,
+        "y": 250,
+        "arms": 4,
+        "rate": 2,
+        "beats": 8,
+        "turn": -35,
+        "speed": 125,
+        "offset": 648
+      }
+    },
+    {
+      "beat": 216,
+      "type": "bullet",
+      "pattern": "rain",
+      "params": {
+        "count": 22,
+        "beats": 8,
+        "speedMin": 160,
+        "speedMax": 220,
+        "seed": 217
+      }
+    },
+    {
+      "beat": 216,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 1013,
+        "y": 469
+      }
+    },
+    {
+      "beat": 218,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 856,
+        "y": 324
+      }
+    },
+    {
+      "beat": 220,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 902,
+        "y": 541
+      }
+    },
+    {
+      "beat": 222,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 739,
+        "y": 380
+      }
+    },
+    {
+      "beat": 224,
+      "type": "bullet",
+      "pattern": "spiral",
+      "params": {
+        "x": 640,
+        "y": 250,
+        "arms": 4,
+        "rate": 2,
+        "beats": 8,
+        "turn": 35,
+        "speed": 125,
+        "offset": 672
+      }
+    },
+    {
+      "beat": 224,
+      "type": "bullet",
+      "pattern": "rain",
+      "params": {
+        "count": 22,
+        "beats": 8,
+        "speedMin": 160,
+        "speedMax": 220,
+        "seed": 225
+      }
+    },
+    {
+      "beat": 224,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 665,
+        "y": 502
+      }
+    },
+    {
+      "beat": 226,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 557,
+        "y": 289
+      }
+    },
+    {
+      "beat": 228,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 403,
+        "y": 237
+      }
+    },
+    {
+      "beat": 230,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 535,
+        "y": 175
+      }
+    },
+    {
+      "beat": 232,
+      "type": "bullet",
+      "pattern": "rain",
+      "params": {
+        "count": 10,
+        "beats": 6,
+        "speedMin": 140,
+        "speedMax": 180,
+        "seed": 999
+      }
+    },
+    {
+      "beat": 232,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 489,
+        "y": 324
+      }
+    },
+    {
+      "beat": 233,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 420,
+        "y": 352
+      }
+    },
+    {
+      "beat": 234,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 351,
+        "y": 334
+      }
+    },
+    {
+      "beat": 235,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 422,
+        "y": 306
+      }
+    },
+    {
+      "beat": 236,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 355,
+        "y": 333
+      }
+    },
+    {
+      "beat": 237,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 371,
+        "y": 439
+      }
+    },
+    {
+      "beat": 238,
+      "type": "gold",
+      "pattern": "star",
+      "params": {
+        "x": 280,
+        "y": 441
+      }
+    },
+    {
+      "beat": 240,
+      "type": "fx",
+      "pattern": "end",
+      "params": {}
+    }
+  ]
+}
