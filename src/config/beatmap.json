@@ -931,12 +931,12 @@
       "pattern": "wave",
       "params": {
         "side": "left",
-        "lane": 410,
+        "lane": 360,
         "count": 8,
         "interval": 0.25,
-        "speed": 120,
-        "amp": 50,
-        "freq": 0.8
+        "speed": 140,
+        "amp": 40,
+        "freq": 0.7
       }
     },
     {
@@ -963,12 +963,12 @@
       "pattern": "wave",
       "params": {
         "side": "right",
-        "lane": 300,
+        "lane": 520,
         "count": 8,
         "interval": 0.25,
-        "speed": 120,
-        "amp": 50,
-        "freq": 0.8
+        "speed": 140,
+        "amp": 40,
+        "freq": 0.7
       }
     },
     {
@@ -995,12 +995,12 @@
       "pattern": "wave",
       "params": {
         "side": "left",
-        "lane": 190,
+        "lane": 200,
         "count": 8,
         "interval": 0.25,
-        "speed": 120,
-        "amp": 50,
-        "freq": 0.8
+        "speed": 140,
+        "amp": 40,
+        "freq": 0.7
       }
     },
     {
@@ -1026,27 +1026,13 @@
       "type": "bullet",
       "pattern": "wave",
       "params": {
-        "side": "left",
-        "lane": 190,
+        "side": "right",
+        "lane": 360,
         "count": 9,
         "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
+        "speed": 150,
+        "amp": 45,
         "freq": 0.7
-      }
-    },
-    {
-      "beat": 96,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 348,
-        "count": 7,
-        "interval": 0.25,
-        "speed": 110,
-        "amp": 70,
-        "freq": 0.6
       }
     },
     {
@@ -1063,13 +1049,13 @@
       "type": "bullet",
       "pattern": "wave",
       "params": {
-        "side": "right",
-        "lane": 410,
-        "count": 9,
+        "side": "top",
+        "lane": 761,
+        "count": 6,
         "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
-        "freq": 0.7
+        "speed": 130,
+        "amp": 50,
+        "freq": 0.6
       }
     },
     {
@@ -1087,11 +1073,11 @@
       "pattern": "wave",
       "params": {
         "side": "left",
-        "lane": 410,
+        "lane": 200,
         "count": 9,
         "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
+        "speed": 150,
+        "amp": 45,
         "freq": 0.7
       }
     },
@@ -1102,20 +1088,6 @@
       "params": {
         "x": 845,
         "y": 509
-      }
-    },
-    {
-      "beat": 102,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 520,
-        "count": 9,
-        "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
-        "freq": 0.7
       }
     },
     {
@@ -1132,27 +1104,13 @@
       "type": "bullet",
       "pattern": "wave",
       "params": {
-        "side": "left",
-        "lane": 300,
+        "side": "right",
+        "lane": 520,
         "count": 9,
         "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
+        "speed": 150,
+        "amp": 45,
         "freq": 0.7
-      }
-    },
-    {
-      "beat": 104,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 321,
-        "count": 7,
-        "interval": 0.25,
-        "speed": 110,
-        "amp": 70,
-        "freq": 0.6
       }
     },
     {
@@ -1162,20 +1120,6 @@
       "params": {
         "x": 815,
         "y": 520
-      }
-    },
-    {
-      "beat": 106,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 190,
-        "count": 9,
-        "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
-        "freq": 0.7
       }
     },
     {
@@ -1193,11 +1137,11 @@
       "pattern": "wave",
       "params": {
         "side": "left",
-        "lane": 520,
+        "lane": 360,
         "count": 9,
         "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
+        "speed": 150,
+        "amp": 45,
         "freq": 0.7
       }
     },
@@ -1208,20 +1152,6 @@
       "params": {
         "x": 1002,
         "y": 375
-      }
-    },
-    {
-      "beat": 110,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 520,
-        "count": 9,
-        "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
-        "freq": 0.7
       }
     },
     {
@@ -1238,27 +1168,13 @@
       "type": "bullet",
       "pattern": "wave",
       "params": {
-        "side": "left",
-        "lane": 300,
+        "side": "right",
+        "lane": 520,
         "count": 9,
         "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
+        "speed": 150,
+        "amp": 45,
         "freq": 0.7
-      }
-    },
-    {
-      "beat": 112,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 328,
-        "count": 7,
-        "interval": 0.25,
-        "speed": 110,
-        "amp": 70,
-        "freq": 0.6
       }
     },
     {
@@ -1275,13 +1191,13 @@
       "type": "bullet",
       "pattern": "wave",
       "params": {
-        "side": "right",
-        "lane": 410,
-        "count": 9,
+        "side": "top",
+        "lane": 502,
+        "count": 6,
         "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
-        "freq": 0.7
+        "speed": 130,
+        "amp": 50,
+        "freq": 0.6
       }
     },
     {
@@ -1299,11 +1215,11 @@
       "pattern": "wave",
       "params": {
         "side": "left",
-        "lane": 410,
+        "lane": 200,
         "count": 9,
         "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
+        "speed": 150,
+        "amp": 45,
         "freq": 0.7
       }
     },
@@ -1314,20 +1230,6 @@
       "params": {
         "x": 722,
         "y": 461
-      }
-    },
-    {
-      "beat": 118,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 300,
-        "count": 9,
-        "interval": 0.25,
-        "speed": 125,
-        "amp": 60,
-        "freq": 0.7
       }
     },
     {
@@ -1344,13 +1246,13 @@
       "type": "bullet",
       "pattern": "wave",
       "params": {
-        "side": "left",
-        "lane": 190,
-        "count": 8,
+        "side": "right",
+        "lane": 360,
+        "count": 7,
         "interval": 0.25,
-        "speed": 140,
-        "amp": 45,
-        "freq": 0.9
+        "speed": 160,
+        "amp": 40,
+        "freq": 0.7
       }
     },
     {
@@ -1372,20 +1274,6 @@
     },
     {
       "beat": 121,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 410,
-        "count": 8,
-        "interval": 0.25,
-        "speed": 140,
-        "amp": 45,
-        "freq": 0.9
-      }
-    },
-    {
-      "beat": 121,
       "type": "gold",
       "pattern": "star",
       "params": {
@@ -1399,12 +1287,12 @@
       "pattern": "wave",
       "params": {
         "side": "left",
-        "lane": 300,
-        "count": 8,
+        "lane": 200,
+        "count": 7,
         "interval": 0.25,
-        "speed": 140,
-        "amp": 45,
-        "freq": 0.9
+        "speed": 160,
+        "amp": 40,
+        "freq": 0.7
       }
     },
     {
@@ -1414,20 +1302,6 @@
       "params": {
         "x": 1024,
         "y": 414
-      }
-    },
-    {
-      "beat": 123,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 520,
-        "count": 8,
-        "interval": 0.25,
-        "speed": 140,
-        "amp": 45,
-        "freq": 0.9
       }
     },
     {
@@ -1444,13 +1318,13 @@
       "type": "bullet",
       "pattern": "wave",
       "params": {
-        "side": "left",
-        "lane": 410,
-        "count": 8,
+        "side": "right",
+        "lane": 360,
+        "count": 7,
         "interval": 0.25,
-        "speed": 140,
-        "amp": 45,
-        "freq": 0.9
+        "speed": 160,
+        "amp": 40,
+        "freq": 0.7
       }
     },
     {
@@ -1460,20 +1334,6 @@
       "params": {
         "x": 1044,
         "y": 469
-      }
-    },
-    {
-      "beat": 125,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 190,
-        "count": 8,
-        "interval": 0.25,
-        "speed": 140,
-        "amp": 45,
-        "freq": 0.9
       }
     },
     {
@@ -1491,12 +1351,12 @@
       "pattern": "wave",
       "params": {
         "side": "left",
-        "lane": 520,
-        "count": 8,
+        "lane": 200,
+        "count": 7,
         "interval": 0.25,
-        "speed": 140,
-        "amp": 45,
-        "freq": 0.9
+        "speed": 160,
+        "amp": 40,
+        "freq": 0.7
       }
     },
     {
@@ -1506,20 +1366,6 @@
       "params": {
         "x": 990,
         "y": 418
-      }
-    },
-    {
-      "beat": 127,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 300,
-        "count": 8,
-        "interval": 0.25,
-        "speed": 140,
-        "amp": 45,
-        "freq": 0.9
       }
     },
     {
@@ -1536,55 +1382,13 @@
       "type": "bullet",
       "pattern": "wave",
       "params": {
-        "side": "left",
+        "side": "right",
         "lane": 520,
-        "count": 10,
+        "count": 9,
         "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
+        "speed": 155,
+        "amp": 45,
         "freq": 0.7
-      }
-    },
-    {
-      "beat": 128,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 200,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
-      }
-    },
-    {
-      "beat": 128,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 420,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
-      }
-    },
-    {
-      "beat": 128,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 1080,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
       }
     },
     {
@@ -1606,20 +1410,6 @@
     },
     {
       "beat": 130,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 410,
-        "count": 10,
-        "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
-        "freq": 0.7
-      }
-    },
-    {
-      "beat": 130,
       "type": "gold",
       "pattern": "star",
       "params": {
@@ -1633,12 +1423,54 @@
       "pattern": "wave",
       "params": {
         "side": "left",
-        "lane": 190,
-        "count": 10,
+        "lane": 360,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 155,
+        "amp": 45,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 132,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 640,
+        "count": 4,
         "interval": 0.25,
         "speed": 130,
-        "amp": 65,
-        "freq": 0.7
+        "amp": 35,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 132,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 860,
+        "count": 4,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 35,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 132,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 1080,
+        "count": 4,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 35,
+        "freq": 0.8
       }
     },
     {
@@ -1648,20 +1480,6 @@
       "params": {
         "x": 812,
         "y": 292
-      }
-    },
-    {
-      "beat": 134,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 300,
-        "count": 10,
-        "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
-        "freq": 0.7
       }
     },
     {
@@ -1678,55 +1496,13 @@
       "type": "bullet",
       "pattern": "wave",
       "params": {
-        "side": "left",
-        "lane": 190,
-        "count": 10,
+        "side": "right",
+        "lane": 520,
+        "count": 9,
         "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
+        "speed": 155,
+        "amp": 45,
         "freq": 0.7
-      }
-    },
-    {
-      "beat": 136,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 640,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
-      }
-    },
-    {
-      "beat": 136,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 860,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
-      }
-    },
-    {
-      "beat": 136,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 1080,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
       }
     },
     {
@@ -1736,20 +1512,6 @@
       "params": {
         "x": 600,
         "y": 208
-      }
-    },
-    {
-      "beat": 138,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 190,
-        "count": 10,
-        "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
-        "freq": 0.7
       }
     },
     {
@@ -1767,12 +1529,54 @@
       "pattern": "wave",
       "params": {
         "side": "left",
-        "lane": 300,
-        "count": 10,
+        "lane": 200,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 155,
+        "amp": 45,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 140,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 640,
+        "count": 4,
         "interval": 0.25,
         "speed": 130,
-        "amp": 65,
-        "freq": 0.7
+        "amp": 35,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 140,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 860,
+        "count": 4,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 35,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 140,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 1080,
+        "count": 4,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 35,
+        "freq": 0.8
       }
     },
     {
@@ -1782,20 +1586,6 @@
       "params": {
         "x": 589,
         "y": 297
-      }
-    },
-    {
-      "beat": 142,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 410,
-        "count": 10,
-        "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
-        "freq": 0.7
       }
     },
     {
@@ -1812,55 +1602,13 @@
       "type": "bullet",
       "pattern": "wave",
       "params": {
-        "side": "left",
-        "lane": 190,
-        "count": 10,
+        "side": "right",
+        "lane": 360,
+        "count": 9,
         "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
+        "speed": 155,
+        "amp": 45,
         "freq": 0.7
-      }
-    },
-    {
-      "beat": 144,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 200,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
-      }
-    },
-    {
-      "beat": 144,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 420,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
-      }
-    },
-    {
-      "beat": 144,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 1080,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
       }
     },
     {
@@ -1870,20 +1618,6 @@
       "params": {
         "x": 859,
         "y": 322
-      }
-    },
-    {
-      "beat": 146,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 520,
-        "count": 10,
-        "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
-        "freq": 0.7
       }
     },
     {
@@ -1901,12 +1635,54 @@
       "pattern": "wave",
       "params": {
         "side": "left",
-        "lane": 300,
-        "count": 10,
+        "lane": 200,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 155,
+        "amp": 45,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 148,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 640,
+        "count": 4,
         "interval": 0.25,
         "speed": 130,
-        "amp": 65,
-        "freq": 0.7
+        "amp": 35,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 148,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 860,
+        "count": 4,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 35,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 148,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 1080,
+        "count": 4,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 35,
+        "freq": 0.8
       }
     },
     {
@@ -1916,20 +1692,6 @@
       "params": {
         "x": 610,
         "y": 265
-      }
-    },
-    {
-      "beat": 150,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 190,
-        "count": 10,
-        "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
-        "freq": 0.7
       }
     },
     {
@@ -1946,55 +1708,13 @@
       "type": "bullet",
       "pattern": "wave",
       "params": {
-        "side": "left",
-        "lane": 410,
-        "count": 10,
+        "side": "right",
+        "lane": 520,
+        "count": 9,
         "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
+        "speed": 155,
+        "amp": 45,
         "freq": 0.7
-      }
-    },
-    {
-      "beat": 152,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 200,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
-      }
-    },
-    {
-      "beat": 152,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 420,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
-      }
-    },
-    {
-      "beat": 152,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "top",
-        "lane": 640,
-        "count": 5,
-        "interval": 0.25,
-        "speed": 115,
-        "amp": 40,
-        "freq": 0.8
       }
     },
     {
@@ -2004,20 +1724,6 @@
       "params": {
         "x": 279,
         "y": 239
-      }
-    },
-    {
-      "beat": 154,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 190,
-        "count": 10,
-        "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
-        "freq": 0.7
       }
     },
     {
@@ -2035,12 +1741,54 @@
       "pattern": "wave",
       "params": {
         "side": "left",
-        "lane": 520,
-        "count": 10,
+        "lane": 360,
+        "count": 9,
+        "interval": 0.25,
+        "speed": 155,
+        "amp": 45,
+        "freq": 0.7
+      }
+    },
+    {
+      "beat": 156,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 200,
+        "count": 4,
         "interval": 0.25,
         "speed": 130,
-        "amp": 65,
-        "freq": 0.7
+        "amp": 35,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 156,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 420,
+        "count": 4,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 35,
+        "freq": 0.8
+      }
+    },
+    {
+      "beat": 156,
+      "type": "bullet",
+      "pattern": "wave",
+      "params": {
+        "side": "top",
+        "lane": 1080,
+        "count": 4,
+        "interval": 0.25,
+        "speed": 130,
+        "amp": 35,
+        "freq": 0.8
       }
     },
     {
@@ -2050,20 +1798,6 @@
       "params": {
         "x": 570,
         "y": 355
-      }
-    },
-    {
-      "beat": 158,
-      "type": "bullet",
-      "pattern": "wave",
-      "params": {
-        "side": "right",
-        "lane": 190,
-        "count": 10,
-        "interval": 0.25,
-        "speed": 130,
-        "amp": 65,
-        "freq": 0.7
       }
     },
     {
@@ -2352,7 +2086,7 @@
       "type": "bullet",
       "pattern": "aimed",
       "params": {
-        "x": 640,
+        "x": 1080,
         "y": 112,
         "count": 3,
         "spacing": 10,
@@ -2381,7 +2115,7 @@
       "type": "bullet",
       "pattern": "aimed",
       "params": {
-        "x": 200,
+        "x": 1080,
         "y": 112,
         "count": 3,
         "spacing": 10,
@@ -2402,7 +2136,7 @@
       "type": "bullet",
       "pattern": "aimed",
       "params": {
-        "x": 200,
+        "x": 640,
         "y": 112,
         "count": 3,
         "spacing": 10,
@@ -2423,7 +2157,7 @@
       "type": "bullet",
       "pattern": "aimed",
       "params": {
-        "x": 640,
+        "x": 200,
         "y": 112,
         "count": 3,
         "spacing": 10,
@@ -2444,7 +2178,7 @@
       "type": "bullet",
       "pattern": "aimed",
       "params": {
-        "x": 1080,
+        "x": 200,
         "y": 112,
         "count": 3,
         "spacing": 10,
@@ -2465,7 +2199,7 @@
       "type": "bullet",
       "pattern": "aimed",
       "params": {
-        "x": 640,
+        "x": 1080,
         "y": 112,
         "count": 3,
         "spacing": 10,

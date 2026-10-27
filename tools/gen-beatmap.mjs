@@ -108,81 +108,58 @@ for (let b = 48; b < 80; b += 4) {
 }
 
 // ---------- Era II — ondas senoidais lentas ----------
-const lanes = [190, 300, 410, 520];
-for (let b = 84; b < 96; b += 4) {
+// Regras de justiça: 3 faixas a 160 px uma da outra com amplitude <= 45 (sempre sobra um
+// corredor entre faixas vizinhas) e, em cada bloco de 8 batidas, uma faixa "livre" que
+// nenhuma onda lateral usa. Ondas laterais vivem ~8 s, então o espaçamento é de 4 batidas
+// (2 na subida) e nunca há duas ondas cruzando a tela na mesma faixa ao mesmo tempo.
+const lanes = [200, 360, 520];
+const freeLane = (b) => Math.floor((b - 80) / 8) % 3;
+const laneFor = (b, k) => {
+  const usable = [0, 1, 2].filter((i) => i !== freeLane(b));
+  return lanes[usable[k % 2]];
+};
+const sideWave = (b, k, speed, amp, count) =>
   bullet(b, 'wave', {
-    side: b % 8 === 4 ? 'left' : 'right',
-    lane: pick(lanes),
-    count: 8,
+    side: k % 2 === 0 ? 'left' : 'right',
+    lane: laneFor(b, k),
+    count,
     interval: 0.25,
-    speed: 120,
-    amp: 50,
-    freq: 0.8,
-  });
-}
-for (let b = 96; b < 120; b += 2) {
-  bullet(b, 'wave', {
-    side: (b / 2) % 2 === 0 ? 'left' : 'right',
-    lane: pick(lanes),
-    count: 9,
-    interval: 0.25,
-    speed: 125,
-    amp: 60,
+    speed,
+    amp,
     freq: 0.7,
   });
-  if (b % 8 === 0) {
-    bullet(b, 'wave', {
+let k2 = 0;
+for (let b = 84; b < 96; b += 4) sideWave(b, k2++, 140, 40, 8);
+for (let b = 96; b < 120; b += 4) {
+  sideWave(b, k2++, 150, 45, 9);
+  if (b % 16 === 0) {
+    bullet(b + 2, 'wave', {
       side: 'top',
-      lane: 260 + round(rnd() * 760),
-      count: 7,
+      lane: 300 + round(rnd() * 680),
+      count: 6,
       interval: 0.25,
-      speed: 110,
-      amp: 70,
+      speed: 130,
+      amp: 50,
       freq: 0.6,
     });
   }
 }
-for (let b = 120; b < 128; b += 2) {
-  bullet(b, 'wave', {
-    side: 'left',
-    lane: lanes[(b / 2) % 4],
-    count: 8,
-    interval: 0.25,
-    speed: 140,
-    amp: 45,
-    freq: 0.9,
-  });
-  bullet(b + 1, 'wave', {
-    side: 'right',
-    lane: lanes[(b / 2 + 2) % 4],
-    count: 8,
-    interval: 0.25,
-    speed: 140,
-    amp: 45,
-    freq: 0.9,
-  });
-}
-for (let b = 128; b < 160; b += 2) {
-  bullet(b, 'wave', {
-    side: (b / 2) % 2 === 0 ? 'left' : 'right',
-    lane: pick(lanes),
-    count: 10,
-    interval: 0.25,
-    speed: 130,
-    amp: 65,
-    freq: 0.7,
-  });
-  if (b % 8 === 0) {
+// Subida: uma onda a cada 2 batidas, alternando lados, fora da faixa livre.
+for (let b = 120; b < 128; b += 2) sideWave(b, k2++, 160, 40, 7);
+// Drop: ondas laterais a cada 4 batidas + cortinas do topo com 2 colunas livres a cada 8.
+for (let b = 128; b < 160; b += 4) {
+  sideWave(b, k2++, 155, 45, 9);
+  if (b % 8 === 4) {
     const gap = round(rnd() * 3);
     for (let c = 0; c < 5; c++) {
       if (c === gap || c === gap + 1) continue;
       bullet(b, 'wave', {
         side: 'top',
         lane: 200 + c * 220,
-        count: 5,
+        count: 4,
         interval: 0.25,
-        speed: 115,
-        amp: 40,
+        speed: 130,
+        amp: 35,
         freq: 0.8,
       });
     }
