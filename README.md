@@ -64,14 +64,15 @@ Abra http://localhost:5173/eras/ (o `base` do Vite é `/eras/` por causa do GitH
 
 ### Scripts
 
-| Script                       | O que faz                                     |
-| ---------------------------- | --------------------------------------------- |
-| `npm run dev`                | servidor de desenvolvimento (Vite)            |
-| `npm run build`              | `tsc --noEmit` + build de produção em `dist/` |
-| `npm run preview`            | serve o `dist/`                               |
-| `npm run lint`               | ESLint + Prettier (checagem)                  |
-| `npm run format`             | Prettier (escreve)                            |
-| `node tools/gen-beatmap.mjs` | regenera `src/config/beatmap.json`            |
+| Script                                                | O que faz                                       |
+| ----------------------------------------------------- | ----------------------------------------------- |
+| `npm run dev`                                         | servidor de desenvolvimento (Vite)              |
+| `npm run build`                                       | `tsc --noEmit` + build de produção em `dist/`   |
+| `npm run preview`                                     | serve o `dist/`                                 |
+| `npm run lint`                                        | ESLint + Prettier (checagem)                    |
+| `npm run format`                                      | Prettier (escreve)                              |
+| `node tools/gen-beatmap.mjs`                          | regenera `src/config/beatmap.json`              |
+| `node tools/sim-dodge.mjs [de] [até] [reação] [modo]` | bot de desvio simula o beatmap e conta os danos |
 
 ## Debug e QA
 
@@ -139,6 +140,12 @@ cursor do jogador.
   Douradas só são pegáveis dentro da janela de ±200 ms.
 - **Nota final**: S/A por % da pontuação máxima. Qualquer vitória vale no mínimo B, e sobreviver é o
   objetivo de quem joga pela primeira vez.
+- **Corredores na Era II**: as ondas laterais usam 3 faixas a 160 px uma da outra, com amplitude de
+  no máximo 45 px. Em cada bloco de 8 batidas, uma faixa fica livre. As ondas saem a cada 4 batidas
+  (a cada 2 na subida). Na versão anterior, ~10 ondas lentas se sobrepunham perto do beat 125 e não
+  sobrava corredor. A conferência é feita com `tools/sim-dodge.mjs`: entre os beats 110 e 140, o bot
+  ingênuo (`naive`) leva 0 danos com qualquer tempo de reação entre 0,1 e 0,25 s, e o bot com
+  previsão leva 0 danos no show inteiro. O pico de balas vivas na Era II caiu de 160 para 66.
 - **Balanceamento para vencer com B em 1–2 tentativas**: balas lentas (110–220 px/s), hitbox de 5 px,
   área de coleta de 28 px, 2 s de i-frames e limpeza de balas num raio de 200 px ao levar dano. Balas
   não nascem a menos de 90 px do jogador, e as que nascem nas bordas entram de fora da tela.
