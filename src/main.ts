@@ -5,6 +5,8 @@ import { PauseScene } from './scenes/PauseScene';
 import { ResultScene } from './scenes/ResultScene';
 import { TitleScene } from './scenes/TitleScene';
 import { PAL } from './style/palette';
+import { music } from './systems/music';
+import { DEBUG } from './systems/settings';
 
 async function waitFonts(): Promise<void> {
   const loads = Promise.all([
@@ -30,7 +32,9 @@ async function boot(): Promise<void> {
     scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH },
     scene: [BootScene, TitleScene, GameScene, PauseScene, ResultScene],
   });
-  (window as unknown as { __game: Phaser.Game }).__game = game;
+  const w = window as unknown as { __game: Phaser.Game; __music?: typeof music };
+  w.__game = game;
+  if (DEBUG) w.__music = music;
 }
 
 void boot();

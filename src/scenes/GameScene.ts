@@ -127,7 +127,7 @@ export class GameScene extends Phaser.Scene {
 
     this.bloomOn = false;
     if (this.renderer.type === Phaser.WEBGL) {
-      this.cameras.main.postFX.addBloom(0xffffff, 1, 1, 1, 1.2, 4);
+      this.cameras.main.postFX.addBloom(PAL.white, 1, 1, 0.8, 0.55, 4);
       this.bloomOn = true;
     }
 
@@ -539,6 +539,7 @@ export class GameScene extends Phaser.Scene {
     this.pending = [];
     this.bullets.clearAll();
     this.golds.clearAll();
+    this.countText.setAlpha(0);
     this.lastBeat = next - 1;
   }
 

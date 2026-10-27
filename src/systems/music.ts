@@ -201,7 +201,9 @@ export class Music {
   /** Chamar dentro do gesto do usuário (Espaço na tela de título). */
   async unlock(): Promise<void> {
     try {
-      await Tone.start();
+      // Alguns navegadores deixam o resume() pendente sem gesto válido: não trava o jogo.
+      const timeout = new Promise<void>((resolve) => setTimeout(resolve, 1200));
+      await Promise.race([Tone.start(), timeout]);
       this.audioOk = Tone.getContext().state === 'running';
     } catch {
       this.audioOk = false;
